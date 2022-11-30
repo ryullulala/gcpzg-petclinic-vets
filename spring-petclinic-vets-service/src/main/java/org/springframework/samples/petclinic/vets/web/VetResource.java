@@ -32,7 +32,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author Arjen Poutsma
  * @author Maciej Szarlinski
  */
-@RequestMapping("/vets")
+@RequestMapping("/api/vet/vets")
 @RestController
 @RequiredArgsConstructor
 class VetResource {
